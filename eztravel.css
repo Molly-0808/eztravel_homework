@@ -324,10 +324,15 @@
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
+  font-size: 14px;
 }
 
 .aside a {
   width: 50%;
+}
+
+.aside a:hover {
+  color: #11d073;
 }
 
 .aside a:nth-child(5),
